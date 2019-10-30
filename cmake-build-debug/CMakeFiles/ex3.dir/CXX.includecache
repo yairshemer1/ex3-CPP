@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex3/HashMap.hpp
+vector
+-
+cassert
+-
+algorithm
+-
+iostream
+-
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex3/HashMapTester1.3.cpp
+HashMap.hpp
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex3/HashMap.hpp
+cassert
+-
+map
+-
+cstdlib
+-
+random
+-
+iostream
+-
+
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex3/SpamDetector.cpp
+iostream
+-
+fstream
+-
+HashMap.hpp
+/cygdrive/c/Users/Yair Shemer/Desktop/University/2b/CPP/ex3/HashMap.hpp
+

@@ -1,0 +1,26 @@
+cpp_ex3
+yair.shemer
+204371983
+######
+
+Description:
+This exercise was to practice templates. I had to create an open hash map, dealing with collisions
+by making each cell a bucket (made of vector containing pairs), where each element is a pair
+containing a key and a value, determined by the template parameters.
+The hash map is resizing itself and and starts at size of 16. It is dealing with wrong keys
+and invalid input by throwing and catching exceptions.
+
+Implementation:
+HashMap.hpp -
+This file includes the class of the hashmap, supporting all features of hash map including insert,
+erase, containing and at(key). It supports the operators '=' and move assignment, '==', '!=', '[]'
+access read and write. Rule of five has been implemented as well. This class also implements
+iterator class as a constant iterator to iterate over all pairs in the hash map. Therefore the
+class also has begin, end, cbegin, cend.
+
+SpamDetector.cpp -
+This file is basically parsing a given database in the format of "phrase,number" only, a given
+message and a threshold. The goal is to hash all phrases and their corresponding numbers pairs
+and after that, going through message, it finds all phrases in the message and collecting it's
+number. The final result is whether the summarize of all numbers comes out higher or lower then
+the threshold. SPAM or NOT_SPAM is then printed to the screen.
